@@ -94,9 +94,6 @@ const UploadForm = () => {
                 <Form.Text></Form.Text>
             </Form.Group>
 
-            
-
-            <Button variant="primary" type="submit">Submit</Button>
         </Form>
     )
 }
