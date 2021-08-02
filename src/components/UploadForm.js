@@ -6,11 +6,6 @@ const UploadForm = () => {
     return (
         <Form>
             <Form.Group>
-                <Form.Label>Please select a file to upload.</Form.Label>
-                <Form.Control type="file" />
-            </Form.Group>
-
-            <Form.Group>
                 <Form.Label>White, Male</Form.Label>
                 <Form.Control type="number" />
                 <Form.Text></Form.Text>
