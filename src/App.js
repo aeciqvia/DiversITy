@@ -1,6 +1,9 @@
 import './App.css';
 import './Data.csv'
 import InputBar from './components/InputBar';
+import UploadForm from './components/UploadForm';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 // var data = './Data.csv';
 // function csvToJSON(csv) {
 //     var lines = csv.split("\n");
@@ -28,6 +31,7 @@ import InputBar from './components/InputBar';
 function App() {
   return (
     <>
+      <UploadForm />
       <InputBar />
     </>
   );
