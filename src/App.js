@@ -8,7 +8,7 @@ import { React, useState } from 'react';
 
 
 function App() {
-  const data = { "a": 6, "b": 5, "c": 1, "d": 3, "e": 12 };
+  
   const [count, setCount] = useState(0);
 
   function sum(obj) {
@@ -41,7 +41,7 @@ function App() {
     reader.onload = function (e) {
       let str = reader.result;
       let result = str.split(",");
-      
+      console.log(result);
       for (let i = 0; i < result.length; i++) {
         if (result[i] === "Male") {
           if (result[i + 1] === "White") setCount(count + 1);
